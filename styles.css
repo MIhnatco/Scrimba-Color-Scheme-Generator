@@ -1,0 +1,101 @@
+body{
+    max-width: 1024px;
+    margin: 0 auto;
+    font-family: sans-serif;
+    background-color: rgb(252, 252, 252);
+
+  }
+
+  header {
+    text-align: center;
+    color: #cd0d0d;
+  }
+
+  img {
+    display: block;
+    margin: 0 auto;
+  }
+
+  /* Generator */
+
+  #generator, 
+  select, 
+  button {
+    border: 1px solid gray;
+    border-radius: 5px;
+  }
+
+  input, 
+  select,
+  button {
+    margin: .5rem;
+  }
+
+  #generator {
+    max-width: 600px;
+    margin: 0 auto;
+    border-radius: 8px;
+    height: 60vh;
+    background-color: #fff;
+  }
+
+  .container {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+  }
+
+  
+  input[type='color'] {
+      /* Change the size of the color input box */
+      width: 60px;
+      height: 40px;
+      /* Customize the appearance of the border and padding */
+      border: 1px solid #ccc;
+    
+      /* Add some border radius for rounded corners */
+      border-radius: 5px;
+      /* Adjust the appearance of the focus state */
+      outline: none; /* Remove the default blue outline on focus */
+      box-shadow: 0 0 3px rgba(0, 0, 0, 0.2); /* Add a subtle shadow on focus */
+
+    }
+
+    select {
+      padding: .5rem;
+      flex-grow: 1;
+    }
+
+    button {
+        background-color: transparent;
+        padding: .5rem;
+    }
+
+    
+   /* Style the color swatches */
+   .color-swatch {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    display: inline-block;
+    }
+
+    /* Style the color hex values */
+    .color-hex {
+        font-size: 1.3rem;
+        margin: 10px;
+        text-align: center;
+        font-family: sans-serif;
+        font-weight: bolod;
+    }
+
+    .color-hex:hover {
+    cursor: pointer;
+    }
+
+    /* Style error messages */
+    .error-message {
+    color: red;
+    font-weight: bold;
+    margin-top: 10px;
+    }

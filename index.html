@@ -7,6 +7,44 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
+    <header>
+        <h1>Color Scheme Generator</h1>
+        <h2>Scrimba Solo assignment</h2>
+    </header>
+
+    <section>
+        <figure>
+            <img src="colorP.png" alt="">
+        </figure>
+
+        <p>Here is the link for the The Color API Docs: <a href="https://www.thecolorapi.com/docs#schemes" target="_blank">The Color API Docs</a></p>
+    </section>
+
+    <section id="generator">
+        <div class="container">
+
+            <input type='color' id='color'>
+
+            <select name="colors" id="colorScheme">
+                <option value="analogic">Analogic</option>
+                <option value="monochrome">Monochromatic</option>
+                <option value="monochrome-dark">Monochromatic-Dark</option>
+                <option value="monochrome-light">Monochromatic-Light</option>
+                <option value="complement">Complimentary</option>
+                <option value="analogic-complement">Analogic-Complement</option>
+                <option value="triad">Triad</option>
+                <option value="quad">Quad</option>
+              </select>
+
+            <button>Get color scheme</button>
+        </div>
+
+        <div id="colorSchemeDisplay" class="container">
+
+        </div>
+        
+    </section>
     
 
     <script src="index.js"></script>
