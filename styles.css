@@ -75,7 +75,7 @@ body{
    /* Style the color swatches */
    .color-swatch {
     width: 100px;
-    height: 100px;
+    height: 40vh;
     margin: 10px;
     display: inline-block;
     }
